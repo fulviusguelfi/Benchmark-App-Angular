@@ -1,0 +1,24 @@
+:host { 
+  display: contents; 
+}
+.authentication-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  flex-wrap: wrap;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-black);
+}
+.authentication-text {
+  width: 100%;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.authentication-text1 {
+  color: var(--dl-color-gray-white);
+}

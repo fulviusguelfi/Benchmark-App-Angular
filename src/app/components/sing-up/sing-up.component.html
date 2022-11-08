@@ -1,0 +1,33 @@
+<div class="sing-up-container">
+  <h1 class="sing-up-text">{{ heading }}</h1>
+  <form class="sing-up-form">
+    <div class="sing-up-container1">
+      <label class="sing-up-text1">{{ label_email }}</label>
+      <input
+        type="text"
+        [attr.placeholder]="textinput_email"
+        class="sing-up-textinput input"
+      />
+    </div>
+    <div class="sing-up-container2">
+      <label class="sing-up-text2">{{ label_password }}</label>
+      <input
+        type="text"
+        [attr.placeholder]="textinput_password"
+        class="input"
+      />
+    </div>
+    <div class="sing-up-container3">
+      <label class="sing-up-text3">{{ label_password_confirm }}</label>
+      <input
+        type="text"
+        [attr.placeholder]="textinput_password_confirmation"
+        class="input"
+      />
+    </div>
+    <div class="sing-up-container4">
+      <button class="button">{{ button_singup }}</button>
+      <button class="button">{{ button_cancel }}</button>
+    </div>
+  </form>
+</div>
