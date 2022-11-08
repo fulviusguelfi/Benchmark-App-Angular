@@ -19,10 +19,11 @@ const routes = [
       import('./pages/home/home.module').then((m) => m.HomeModule),
   },
   {
-    path: 'sing-in1',
+    path: 'sing-in',
     loadChildren: () =>
       import('./pages/sing-in1/sing-in1.module').then((m) => m.SingIn1Module),
   },
+  
 ]
 
 @NgModule({
