@@ -22,6 +22,12 @@ export class SingIn {
   label_email: string = 'e-mail'
   @Input()
   textinput_email: string = 'e-mail'
+  @Input()
+  text: string = 'if you are new here:'
+  @Input()
+  text_link: string = 'create a new account!'
+  @Input()
+  link_text: string = 'https://example.com'
 
   constructor() {}
 }

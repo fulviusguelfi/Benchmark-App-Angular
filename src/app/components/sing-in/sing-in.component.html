@@ -1,24 +1,35 @@
 <div class="sing-in-container" [ngClass]="rootClassName">
   <h1 class="sing-in-text">{{ heading }}</h1>
+  <div class="sing-in-container1">
+    <p class="sing-in-text1">{{ text }}</p>
+    <a
+      [attr.href]="link_text"
+      target="_blank"
+      rel="noreferrer noopener"
+      class="sing-in-link"
+    >
+      {{ text_link }}
+    </a>
+  </div>
   <form class="sing-in-form">
-    <div class="sing-in-container1">
-      <label class="sing-in-text1">{{ label_email }}</label>
+    <div class="sing-in-container2">
+      <label class="sing-in-text2">{{ label_email }}</label>
       <input
         type="text"
         [attr.placeholder]="textinput_email"
         class="sing-in-textinput input"
       />
     </div>
-    <div class="sing-in-container2">
-      <label class="sing-in-text2">{{ label_password }}</label>
+    <div class="sing-in-container3">
+      <label class="sing-in-text3">{{ label_password }}</label>
       <input
         type="text"
         [attr.placeholder]="textinput_password"
         class="input"
       />
     </div>
-    <div class="sing-in-container3">
-      <button class="button">{{ button_singin }}</button>
+    <div class="sing-in-container4">
+      <button class="sing-in-button button">{{ button_singin }}</button>
       <button class="button">{{ button_cancel }}</button>
     </div>
   </form>

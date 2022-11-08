@@ -19,12 +19,29 @@
   text-align: center;
   margin-left: var(--dl-space-space-unit);
 }
+.sing-in-container1 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+}
+.sing-in-text1 {
+  color: var(--dl-color-gray-white);
+}
+.sing-in-link {
+  color: var(--dl-color-primary-700);
+}
 .sing-in-form {
   flex: 1;
   height: 316px;
   align-self: center;
 }
-.sing-in-container1 {
+.sing-in-container2 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -34,13 +51,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.sing-in-text1 {
+.sing-in-text2 {
   color: #ffffff;
 }
 .sing-in-textinput {
   width: auto;
 }
-.sing-in-container2 {
+.sing-in-container3 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -52,10 +69,10 @@
   flex-direction: column;
   justify-content: center;
 }
-.sing-in-text2 {
+.sing-in-text3 {
   color: #ffffff;
 }
-.sing-in-container3 {
+.sing-in-container4 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -64,4 +81,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
   justify-content: space-between;
+}
+.sing-in-button {
+  border-width: 1px;
 }
