@@ -75,7 +75,6 @@
 .teleport-show {
   display: flex !important;
 }
-
 .content {
   font-size: 16px;
   font-family: Inter;
@@ -92,6 +91,3 @@
   text-transform: none;
   text-decoration: none;
 }
-
-
-

@@ -19,35 +19,35 @@
   text-align: center;
   margin-left: var(--dl-space-space-unit);
 }
+.sing-up-container1 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+}
+.sing-up-text1 {
+  color: var(--dl-color-gray-white);
+}
+.sing-up-link {
+  color: var(--dl-color-primary-700);
+}
 .sing-up-form {
   flex: 1;
   height: 316px;
   position: relative;
   align-self: center;
 }
-.sing-up-container1 {
+.sing-up-container2 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
   display: flex;
-  align-items: flex-start;
-  margin-bottom: var(--dl-space-space-twounits);
-  flex-direction: column;
-  justify-content: center;
-}
-.sing-up-text1 {
-  color: #ffffff;
-}
-.sing-up-textinput {
-  width: auto;
-}
-.sing-up-container2 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  position: relative;
-  flex-wrap: wrap;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
@@ -56,10 +56,13 @@
 .sing-up-text2 {
   color: #ffffff;
 }
+.sing-up-textinput {
+  width: auto;
+}
 .sing-up-container3 {
   flex: 0 0 auto;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   display: flex;
   position: relative;
   flex-wrap: wrap;
@@ -76,8 +79,30 @@
   width: auto;
   height: auto;
   display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.sing-up-text4 {
+  color: #ffffff;
+}
+.sing-up-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
   justify-content: space-between;
+}
+
+@media(max-width: 479px) {
+  .sing-up-container1 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
 }

@@ -26,6 +26,12 @@ export class SingUp {
   label_email: string = 'e-mail'
   @Input()
   textinput_password: string = 'password'
+  @Input()
+  text: string = 'Already have an account:'
+  @Input()
+  text_link: string = 'go to sing in page'
+  @Input()
+  link_text: string = 'https://example.com'
 
   constructor() {}
 }

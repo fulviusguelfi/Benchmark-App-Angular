@@ -25,6 +25,7 @@
   width: 100%;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-twounits);
@@ -84,4 +85,18 @@
 }
 .sing-in-button {
   border-width: 1px;
+}
+.sing-in-root-class-name1 {
+  top: 72px;
+  flex: 0.382;
+  left: 0px;
+  right: 0px;
+  position: static;
+  align-self: center;
+}
+@media(max-width: 479px) {
+  .sing-in-container1 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
 }

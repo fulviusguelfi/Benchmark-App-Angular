@@ -1,31 +1,42 @@
-<div class="sing-up-container">
+<div class="sing-up-container" [ngClass]="rootClassName">
   <h1 class="sing-up-text">{{ heading }}</h1>
+  <div class="sing-up-container1">
+    <p class="sing-up-text1">{{ text }}</p>
+    <a
+      [attr.href]="link_text"
+      target="_blank"
+      rel="noreferrer noopener"
+      class="sing-up-link"
+    >
+      {{ text_link }}
+    </a>
+  </div>
   <form class="sing-up-form">
-    <div class="sing-up-container1">
-      <label class="sing-up-text1">{{ label_email }}</label>
+    <div class="sing-up-container2">
+      <label class="sing-up-text2">{{ label_email }}</label>
       <input
         type="text"
         [attr.placeholder]="textinput_email"
         class="sing-up-textinput input"
       />
     </div>
-    <div class="sing-up-container2">
-      <label class="sing-up-text2">{{ label_password }}</label>
+    <div class="sing-up-container3">
+      <label class="sing-up-text3">{{ label_password }}</label>
       <input
         type="text"
         [attr.placeholder]="textinput_password"
         class="input"
       />
     </div>
-    <div class="sing-up-container3">
-      <label class="sing-up-text3">{{ label_password_confirm }}</label>
+    <div class="sing-up-container4">
+      <label class="sing-up-text4">{{ label_password_confirm }}</label>
       <input
         type="text"
         [attr.placeholder]="textinput_password_confirmation"
         class="input"
       />
     </div>
-    <div class="sing-up-container4">
+    <div class="sing-up-container5">
       <button class="button">{{ button_singup }}</button>
       <button class="button">{{ button_cancel }}</button>
     </div>
