@@ -9,7 +9,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: var(--dl-color-gray-black);
+  background-color: var(--dl-color-gray-900);
 }
 .create-account-container1 {
   width: 100%;

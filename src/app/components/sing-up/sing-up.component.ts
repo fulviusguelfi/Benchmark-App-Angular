@@ -7,6 +7,8 @@ import { Component, Input } from '@angular/core'
 })
 export class SingUp {
   @Input()
+  link_text: string = 'https://example.com'
+  @Input()
   heading: string = 'Sing Up'
   @Input()
   button_cancel: string = 'Cancel'
@@ -19,19 +21,17 @@ export class SingUp {
   @Input()
   rootClassName: string = ''
   @Input()
+  text: string = 'Already have an account:'
+  @Input()
   textinput_email: string = 'e-mail'
+  @Input()
+  text_link: string = 'go to sing in page'
   @Input()
   label_password_confirm: string = 'Password confirmation'
   @Input()
   label_email: string = 'e-mail'
   @Input()
   textinput_password: string = 'password'
-  @Input()
-  text: string = 'Already have an account:'
-  @Input()
-  text_link: string = 'go to sing in page'
-  @Input()
-  link_text: string = 'https://example.com'
 
   constructor() {}
 }

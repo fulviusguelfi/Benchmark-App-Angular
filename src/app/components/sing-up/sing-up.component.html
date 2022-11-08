@@ -1,6 +1,8 @@
 <div class="sing-up-container" [ngClass]="rootClassName">
-  <h1 class="sing-up-text">{{ heading }}</h1>
   <div class="sing-up-container1">
+    <h1 class="sing-up-text">{{ heading }}</h1>
+  </div>
+  <div class="sing-up-container2">
     <p class="sing-up-text1">{{ text }}</p>
     <a
       [attr.href]="link_text"
@@ -12,7 +14,7 @@
     </a>
   </div>
   <form class="sing-up-form">
-    <div class="sing-up-container2">
+    <div class="sing-up-container3">
       <label class="sing-up-text2">{{ label_email }}</label>
       <input
         type="text"
@@ -20,7 +22,7 @@
         class="sing-up-textinput input"
       />
     </div>
-    <div class="sing-up-container3">
+    <div class="sing-up-container4">
       <label class="sing-up-text3">{{ label_password }}</label>
       <input
         type="text"
@@ -28,7 +30,7 @@
         class="input"
       />
     </div>
-    <div class="sing-up-container4">
+    <div class="sing-up-container5">
       <label class="sing-up-text4">{{ label_password_confirm }}</label>
       <input
         type="text"
@@ -36,7 +38,7 @@
         class="input"
       />
     </div>
-    <div class="sing-up-container5">
+    <div class="sing-up-container6">
       <button class="button">{{ button_singup }}</button>
       <button class="button">{{ button_cancel }}</button>
     </div>
