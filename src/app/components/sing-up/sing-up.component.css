@@ -33,7 +33,6 @@
   width: 100%;
   height: auto;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-twounits);
@@ -110,6 +109,7 @@
 
 @media(max-width: 479px) {
   .sing-up-container2 {
+    flex-wrap: wrap;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
