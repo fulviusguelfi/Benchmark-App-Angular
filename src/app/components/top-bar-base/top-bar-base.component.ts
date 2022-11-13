@@ -9,9 +9,9 @@ export class TopBarBase {
   @Input()
   rootClassName: string = ''
   @Input()
-  text: string = 'Register'
+  text: string = 'Sing Up'
   @Input()
-  text1: string = 'Login'
+  text1: string = 'Sing In'
 
   constructor() {}
 }
