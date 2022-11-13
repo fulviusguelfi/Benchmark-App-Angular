@@ -44,6 +44,20 @@ const routes = [
     loadChildren: () =>
       import('./pages/sing-in1/sing-in1.module').then((m) => m.SingIn1Module),
   },
+  {
+    path: 'sing-up-base-page',
+    loadChildren: () =>
+      import('./pages/sing-up-base-page/sing-up-base-page.module').then(
+        (m) => m.SingUpBasePageModule
+      ),
+  },
+  {
+    path: 'base-page',
+    loadChildren: () =>
+      import('./pages/base-page/base-page.module').then(
+        (m) => m.BasePageModule
+      ),
+  },
 ]
 
 @NgModule({

@@ -1,0 +1,14 @@
+:host { 
+  display: contents; 
+}
+.sing-up-base-page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("/assets/playground_assets/image-of-3d-animated-matrix-1500w.jpg");
+}
