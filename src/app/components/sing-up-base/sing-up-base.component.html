@@ -1,0 +1,41 @@
+<div class="sing-up-base-container">
+  <div class="sing-up-base-container1">
+    <h1 class="sing-up-base-text">{{ heading }}</h1>
+  </div>
+  <div class="sing-up-base-container2">
+    <p>{{ text }}</p>
+    <a routerLink="/sing-in1">{{ text_link }}</a>
+  </div>
+  <form class="sing-up-base-form">
+    <div class="sing-up-base-container3">
+      <label class="sing-up-base-text2">{{ label_email }}</label>
+      <input
+        type="text"
+        [attr.placeholder]="textinput_email"
+        class="sing-up-base-textinput input"
+      />
+    </div>
+    <div class="sing-up-base-container4">
+      <label class="sing-up-base-text3">{{ label_password }}</label>
+      <input
+        type="text"
+        [attr.placeholder]="textinput_password"
+        class="input"
+      />
+    </div>
+    <div class="sing-up-base-container5">
+      <label class="sing-up-base-text4">{{ label_password_confirm }}</label>
+      <input
+        type="text"
+        [attr.placeholder]="textinput_password_confirmation"
+        class="input"
+      />
+    </div>
+    <div class="sing-up-base-container6">
+      <button type="submit" disabled class="button success">
+        {{ button_singup }}
+      </button>
+      <button type="button" class="button primary">{{ button_cancel }}</button>
+    </div>
+  </form>
+</div>

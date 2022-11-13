@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core'
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'
 import { RouterModule } from '@angular/router'
 import { BrowserModule } from '@angular/platform-browser'
 
@@ -11,6 +11,13 @@ const routes = [
     loadChildren: () =>
       import('./pages/create-account/create-account.module').then(
         (m) => m.CreateAccountModule
+      ),
+  },
+  {
+    path: 'sing-in-base-page',
+    loadChildren: () =>
+      import('./pages/sing-in-base-page/sing-in-base-page.module').then(
+        (m) => m.SingInBasePageModule
       ),
   },
   {
@@ -44,5 +51,6 @@ const routes = [
   imports: [BrowserModule, RouterModule.forRoot(routes), ComponentsModule],
   providers: [],
   bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule {}

@@ -3,19 +3,19 @@ import { RouterModule } from '@angular/router'
 import { CommonModule } from '@angular/common'
 
 import { ComponentsModule } from '../../components/components.module'
-import { SingInWidget1 } from './sing-in-widget1.component'
+import { SingInBasePage } from './sing-in-base-page.component'
 
 const routes = [
   {
     path: '',
-    component: SingInWidget1,
+    component: SingInBasePage,
   },
 ]
 
 @NgModule({
-  declarations: [SingInWidget1],
+  declarations: [SingInBasePage],
   imports: [CommonModule, ComponentsModule, RouterModule.forChild(routes)],
-  exports: [SingInWidget1],
+  exports: [SingInBasePage],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class SingInWidget1Module {}
+export class SingInBasePageModule {}

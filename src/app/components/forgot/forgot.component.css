@@ -8,9 +8,14 @@
   position: relative;
   box-shadow: 5px 5px 10px 0px #757575;
   align-items: center;
+  border-radius: var(--dl-radius-radius-radius4);
   flex-direction: column;
   justify-content: center;
   background-color: var(--dl-color-gray-500);
+  border-top-left-radius: var(--dl-radius-radius-radius4);
+  border-top-right-radius: var(--dl-radius-radius-radius4);
+  border-bottom-left-radius: var(--dl-radius-radius-radius4);
+  border-bottom-right-radius: 32%;
 }
 .forgot-text {
   color: #ffffff;

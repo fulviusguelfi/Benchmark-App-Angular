@@ -34,8 +34,9 @@
 .sing-in-text1 {
   color: var(--dl-color-gray-white);
 }
-.sing-in-link {
+.sing-in-navlink {
   color: var(--dl-color-primary-700);
+  text-decoration: none;
 }
 .sing-in-form {
   flex: 1;
@@ -83,9 +84,6 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.sing-in-button {
-  border-width: 1px;
-}
 .sing-in-root-class-name1 {
   top: 72px;
   flex: 0.382;
@@ -94,6 +92,7 @@
   position: static;
   align-self: center;
 }
+
 @media(max-width: 479px) {
   .sing-in-container1 {
     padding-left: var(--dl-space-space-unit);

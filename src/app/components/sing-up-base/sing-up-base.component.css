@@ -1,7 +1,7 @@
 :host { 
   display: contents; 
 }
-.sing-up-container {
+.sing-up-base-container {
   width: 68.2%;
   height: auto;
   display: flex;
@@ -10,9 +10,8 @@
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--dl-color-gray-500);
 }
-.sing-up-container1 {
+.sing-up-base-container1 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -20,14 +19,13 @@
   align-items: flex-start;
   justify-content: center;
 }
-.sing-up-text {
-  color: #ffffff;
+.sing-up-base-text {
   align-self: flex-start;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
   margin-left: var(--dl-space-space-unit);
 }
-.sing-up-container2 {
+.sing-up-base-container2 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: 100%;
@@ -38,20 +36,13 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: center;
 }
-.sing-up-text1 {
-  color: var(--dl-color-gray-white);
-}
-.sing-up-navlink {
-  color: var(--dl-color-primary-700);
-  text-decoration: none;
-}
-.sing-up-form {
+.sing-up-base-form {
   flex: 1;
   height: 316px;
   position: relative;
   align-self: center;
 }
-.sing-up-container3 {
+.sing-up-base-container3 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -61,13 +52,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.sing-up-text2 {
+.sing-up-base-text2 {
   color: #ffffff;
 }
-.sing-up-textinput {
+.sing-up-base-textinput {
   width: auto;
 }
-.sing-up-container4 {
+.sing-up-base-container4 {
   flex: 0 0 auto;
   width: 100%;
   height: 100%;
@@ -79,10 +70,10 @@
   flex-direction: column;
   justify-content: center;
 }
-.sing-up-text3 {
+.sing-up-base-text3 {
   color: #ffffff;
 }
-.sing-up-container5 {
+.sing-up-base-container5 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -94,10 +85,10 @@
   flex-direction: column;
   justify-content: center;
 }
-.sing-up-text4 {
+.sing-up-base-text4 {
   color: #ffffff;
 }
-.sing-up-container6 {
+.sing-up-base-container6 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -107,9 +98,8 @@
   flex-direction: row;
   justify-content: space-between;
 }
-
 @media(max-width: 479px) {
-  .sing-up-container2 {
+  .sing-up-base-container2 {
     flex-wrap: wrap;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
