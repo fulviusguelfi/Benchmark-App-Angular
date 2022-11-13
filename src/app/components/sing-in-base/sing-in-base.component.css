@@ -10,6 +10,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: var(--dl-color-gray-900);
 }
 .sing-in-base-text {
   align-self: flex-start;
