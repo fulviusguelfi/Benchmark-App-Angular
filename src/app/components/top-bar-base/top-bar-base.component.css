@@ -6,11 +6,11 @@
   height: auto;
   display: flex;
   position: relative;
+  box-shadow: 10px 10px 30px 0px #757575;
   align-items: center;
   border-radius: var(--dl-radius-radius-radius2);
   flex-direction: row;
   justify-content: center;
-  border-top-right-radius: 5rem;
   border-bottom-right-radius: 5rem;
 }
 .top-bar-base-navbar-interactive {
@@ -21,9 +21,12 @@
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-threeunits);
+  border-radius: var(--dl-radius-radius-radius2);
   padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
 }
 .top-bar-base-logo {
   height: 2rem;
