@@ -7,6 +7,13 @@ import { AppComponent } from './app.component'
 
 const routes = [
   {
+    path: 'base-page',
+    loadChildren: () =>
+      import('./pages/base-page/base-page.module').then(
+        (m) => m.BasePageModule
+      ),
+  },
+  {
     path: 'create-account',
     loadChildren: () =>
       import('./pages/create-account/create-account.module').then(
@@ -49,13 +56,6 @@ const routes = [
     loadChildren: () =>
       import('./pages/sing-up-base-page/sing-up-base-page.module').then(
         (m) => m.SingUpBasePageModule
-      ),
-  },
-  {
-    path: 'base-page',
-    loadChildren: () =>
-      import('./pages/base-page/base-page.module').then(
-        (m) => m.BasePageModule
       ),
   },
 ]

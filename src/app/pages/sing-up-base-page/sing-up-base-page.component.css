@@ -12,3 +12,11 @@
   justify-content: flex-start;
   background-image: url("/assets/playground_assets/image-of-3d-animated-matrix-1500w.jpg");
 }
+.sing-up-base-page-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 6rem;
+  display: flex;
+  align-items: flex-start;
+}

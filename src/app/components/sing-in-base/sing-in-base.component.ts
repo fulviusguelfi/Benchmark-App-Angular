@@ -13,15 +13,15 @@ export class SingInBase {
   @Input()
   textinput_password: string = 'password'
   @Input()
+  text2: string = 'Cancel'
+  @Input()
   textinput_email: string = 'e-mail'
   @Input()
   heading: string = 'Sing In'
   @Input()
-  text: string = 'if you are new here:'
-  @Input()
   text1: string = 'SIng In'
   @Input()
-  text2: string = 'Cancel'
+  text: string = 'if you are new here:'
 
   constructor() {}
 }

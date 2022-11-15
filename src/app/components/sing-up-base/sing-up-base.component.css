@@ -10,6 +10,7 @@
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
+  background-color: var(--dl-color-gray-900);
 }
 .sing-up-base-container1 {
   flex: 0 0 auto;
@@ -98,6 +99,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
 @media(max-width: 479px) {
   .sing-up-base-container2 {
     flex-wrap: wrap;
