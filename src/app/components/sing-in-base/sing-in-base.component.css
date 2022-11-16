@@ -98,11 +98,11 @@
 .sing-in-base-text3 {
   align-self: center;
 }
+
 .sing-in-base-root-class-name1 {
   align-self: center;
   margin-top: 5rem;
 }
-
 @media(max-width: 991px) {
   .sing-in-base-form {
     width: 85%;

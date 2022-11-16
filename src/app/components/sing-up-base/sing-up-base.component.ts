@@ -19,17 +19,13 @@ export class SingUpBase {
   @Input()
   text_link: string = 'go to sing in page'
   @Input()
-  label_password: string = 'Password'
-  @Input()
   textinput_password_confirmation: string = 'password again'
-  @Input()
-  label_password_confirm: string = 'Password confirmation'
   @Input()
   heading: string = 'Sing Up'
   @Input()
-  label_email: string = 'e-mail'
+  text1: string = 'SIng Up'
   @Input()
-  button_singup: string = 'SIng Up'
+  text2: string = 'Cancel'
 
   constructor() {}
 }
