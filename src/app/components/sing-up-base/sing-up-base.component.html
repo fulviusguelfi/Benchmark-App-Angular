@@ -1,5 +1,10 @@
 <div class="sing-up-base-container" [ngClass]="rootClassName">
   <h1 class="sing-up-base-text">{{ heading }}</h1>
+  <img
+    [attr.alt]="image_alt"
+    [attr.src]="image_src"
+    class="sing-up-base-image"
+  />
   <div class="sing-up-base-container1">
     <p>{{ text }}</p>
     <a routerLink="/sing-in1">{{ text_link }}</a>

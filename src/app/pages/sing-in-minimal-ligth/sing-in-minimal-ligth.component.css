@@ -1,0 +1,78 @@
+:host { 
+  display: contents; 
+}
+.sing-in-minimal-ligth-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.sing-in-minimal-ligth-container1 {
+  gap: 3rem;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 10rem;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sing-in-minimal-ligth-text {
+  font-size: 4rem;
+  font-family: Exo 2;
+}
+.sing-in-minimal-ligth-container2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sing-in-minimal-ligth-container3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sing-in-minimal-ligth-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sing-in-minimal-ligth-button {
+  display: flex;
+  flex-direction: row;
+}
+.sing-in-minimal-ligth-icon {
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 767px) {
+  .sing-in-minimal-ligth-container1 {
+    padding: 7rem;
+  }
+}
+@media(max-width: 479px) {
+  .sing-in-minimal-ligth-container1 {
+    padding: 2rem;
+  }
+  .sing-in-minimal-ligth-textinput {
+    width: 90%;
+    padding-left: .3rem;
+    padding-right: .3rem;
+  }
+  .sing-in-minimal-ligth-textinput1 {
+    width: 90%;
+    padding-left: .3rem;
+    padding-right: .3rem;
+  }
+}

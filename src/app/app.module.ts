@@ -28,6 +28,18 @@ const routes = [
       ),
   },
   {
+    path: 'sessions-minimal-ligth',
+    loadChildren: () =>
+      import(
+        './pages/sessions-minimal-ligth/sessions-minimal-ligth.module'
+      ).then((m) => m.SessionsMinimalLigthModule),
+  },
+  {
+    path: 'sing-up-w',
+    loadChildren: () =>
+      import('./pages/sing-up-w/sing-up-w.module').then((m) => m.SingUpWModule),
+  },
+  {
     path: 'forgot-password',
     loadChildren: () =>
       import('./pages/forgot-password/forgot-password.module').then(
@@ -39,6 +51,39 @@ const routes = [
     loadChildren: () =>
       import('./pages/sing-in-widget1/sing-in-widget1.module').then(
         (m) => m.SingInWidget1Module
+      ),
+  },
+  {
+    path: 'sing-up-minimal-ligth',
+    loadChildren: () =>
+      import('./pages/sing-up-minimal-ligth/sing-up-minimal-ligth.module').then(
+        (m) => m.SingUpMinimalLigthModule
+      ),
+  },
+  {
+    path: 'sessions-w',
+    loadChildren: () =>
+      import('./pages/sessions-w/sessions-w.module').then(
+        (m) => m.SessionsWModule
+      ),
+  },
+  {
+    path: 'sing-in-w',
+    loadChildren: () =>
+      import('./pages/sing-in-w/sing-in-w.module').then((m) => m.SingInWModule),
+  },
+  {
+    path: 'base-minimal-ligth',
+    loadChildren: () =>
+      import('./pages/base-minimal-ligth/base-minimal-ligth.module').then(
+        (m) => m.BaseMinimalLigthModule
+      ),
+  },
+  {
+    path: 'sing-in-minimal-ligth',
+    loadChildren: () =>
+      import('./pages/sing-in-minimal-ligth/sing-in-minimal-ligth.module').then(
+        (m) => m.SingInMinimalLigthModule
       ),
   },
   {
