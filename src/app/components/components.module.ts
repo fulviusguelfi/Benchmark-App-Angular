@@ -3,11 +3,12 @@ import { RouterModule } from '@angular/router'
 import { CommonModule } from '@angular/common'
 
 import { Chat } from './chat/chat.component'
+import { SessionList } from './session-list/session-list.component'
 
 @NgModule({
-  declarations: [Chat],
+  declarations: [Chat, SessionList],
   imports: [CommonModule, RouterModule],
-  exports: [Chat],
+  exports: [Chat, SessionList],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class ComponentsModule {}
