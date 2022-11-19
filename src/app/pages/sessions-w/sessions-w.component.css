@@ -29,7 +29,7 @@
   justify-content: space-between;
 }
 .sessions-w-text {
-  color: var(--dl-color-primary-custom-300);
+  color: var(--dl-color-blue-300);
   font-size: 4rem;
   align-self: stretch;
   font-family: Exo 2;
