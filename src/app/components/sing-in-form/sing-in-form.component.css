@@ -1,0 +1,31 @@
+:host { 
+  display: contents; 
+}
+.sing-in-form-container {
+  gap: 20px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.sing-in-form-container1 {
+  display: flex;
+  flex-direction: column;
+}
+.sing-in-form-container2 {
+  display: flex;
+  flex-direction: column;
+}
+.sing-in-form-container3 {
+  display: flex;
+  flex-direction: row;
+}
+.sing-in-form-button {
+  display: flex;
+  flex-direction: row;
+}
+.sing-in-form-icon {
+  width: 24px;
+  height: 24px;
+}
+

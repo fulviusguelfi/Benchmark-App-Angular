@@ -1,0 +1,40 @@
+:host { 
+  display: contents; 
+}
+.sing-up-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sing-up-container1 {
+  gap: 1rem;
+  width: 400px;
+  height: auto;
+  display: flex;
+  padding: 2rem;
+  max-width: 400px;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #afa9a9;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  justify-content: center;
+}
+.sing-up-text {
+  font-size: 4rem;
+  font-family: Exo 2;
+}
+@media(max-width: 767px) {
+  .sing-up-container1 {
+    padding: 7rem;
+  }
+}
+@media(max-width: 479px) {
+  .sing-up-container1 {
+    padding: 2rem;
+  }
+}

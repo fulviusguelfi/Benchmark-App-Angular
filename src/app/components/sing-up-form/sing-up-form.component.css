@@ -1,0 +1,36 @@
+:host { 
+  display: contents; 
+}
+.sing-up-form-container {
+  gap: 20px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.sing-up-form-container1 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.sing-up-form-container2 {
+  display: flex;
+  flex-direction: column;
+}
+.sing-up-form-container3 {
+  display: flex;
+  flex-direction: column;
+}
+.sing-up-form-container4 {
+  display: flex;
+  flex-direction: row;
+}
+.sing-up-form-button {
+  display: flex;
+  flex-direction: row;
+}
+.sing-up-form-icon {
+  width: 24px;
+  height: 24px;
+}
+

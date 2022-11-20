@@ -7,9 +7,9 @@ import { AppComponent } from './app.component'
 
 const routes = [
   {
-    path: 'sing-up-w',
+    path: 'sing-up',
     loadChildren: () =>
-      import('./pages/sing-up-w/sing-up-w.module').then((m) => m.SingUpWModule),
+      import('./pages/sing-up/sing-up.module').then((m) => m.SingUpModule),
   },
   {
     path: 'sessions-w',
@@ -19,9 +19,9 @@ const routes = [
       ),
   },
   {
-    path: 'sing-in-w',
+    path: 'sing-in',
     loadChildren: () =>
-      import('./pages/sing-in-w/sing-in-w.module').then((m) => m.SingInWModule),
+      import('./pages/sing-in/sing-in.module').then((m) => m.SingInModule),
   },
   {
     path: '',
