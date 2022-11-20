@@ -1,9 +1,10 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'
-import { RouterModule } from '@angular/router'
-import { CommonModule } from '@angular/common'
+
 
 import { ComponentsModule } from '../../components/components.module'
 import { SingInW } from './sing-in-w.component'
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 const routes = [
   {
@@ -18,4 +19,4 @@ const routes = [
   exports: [SingInW],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class SingInWModule {}
+export class SingInWModule { }
