@@ -73,12 +73,6 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
-.button-w {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-width: 1px;
-  border-radius: 4px;
-}
 .input {
   cursor: auto;
   padding: 1rem;
@@ -131,7 +125,12 @@
   background-color: var(--dl-color-gray-900);
 }
 .icon {
-  margin: .2rem;
+  margin: .1rem;
+  align-self: center;
+}
+.icon-aling-item {
+  margin: .1rem;
+  align-self: center;
 }
 .btn-w {
   border: .2rem solid;
@@ -154,8 +153,8 @@
 .primary-w-blue {
   fill: var(--dl-color-gray-900);
   color: var(--dl-color-gray-900);
-  border-color: var(--dl-color-blue-500);
-  background-color: var(--dl-color-blue-300);
+  border-color: var(--dl-color-blue-700);
+  background-color: var(--dl-color-blue-500);
 }
 .primary-w-blue-stroke {
   fill: var(--dl-color-blue-300);
@@ -171,6 +170,27 @@
   fill: var(--dl-color-till-300);
   color: var(--dl-color-till-300);
   border-color: var(--dl-color-till-300);
+}
+.btn-row {
+  justify-content: space-around;
+}
+.margin-top-w {
+  margin-top: 2rem;
+}
+.label {
+  fill: var(--dl-color-green-100);
+  color: var(--dl-color-green-100);
+  width: fit-content;
+  border: thin solid;
+  padding: .25rem;
+  position: relative;
+  align-items: center;
+  margin-left: 1rem;
+  border-color: var(--dl-color-green-500);
+  align-content: center;
+  border-radius: var(--dl-radius-radius-radius12);
+  margin-bottom: -1rem;
+  background-color: var(--dl-color-gray-white);
 }
 .Content {
   font-size: 16px;
