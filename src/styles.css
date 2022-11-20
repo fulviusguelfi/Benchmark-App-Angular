@@ -144,6 +144,12 @@
   border-color: var(--dl-color-till-500);
   background-color: var(--dl-color-till-300);
 }
+.primary-w-till:disabled {
+  fill: var(--dl-color-till-300);
+  color: var(--dl-color-till-300);
+  border-color: var(--dl-color-till-300);
+  background-color: var(--dl-color-gray-900);
+}
 .primary-w-red {
   fill: var(--dl-color-gray-900);
   color: var(--dl-color-gray-900);
@@ -184,6 +190,7 @@
   border: thin solid;
   padding: .25rem;
   position: relative;
+  font-size: .8rem;
   align-items: center;
   margin-left: 1rem;
   border-color: var(--dl-color-green-500);

@@ -7,21 +7,21 @@ import { Component, Input } from '@angular/core'
 })
 export class SingUpForm {
   @Input()
-  rootClassName: string = ''
-  @Input()
-  text4: string = 'e-mail'
-  @Input()
   textinput_placeholder: string = ''
+  @Input()
+  textinput_placeholder11: string = ''
   @Input()
   text5: string = 'password'
   @Input()
-  textinput_placeholder1: string = ''
+  text51: string = 'confirm password'
   @Input()
   text6: string = 'Sing Up'
   @Input()
-  text51: string = 'confirm password'
+  text4: string = 'e-mail'
   @Input()
-  textinput_placeholder11: string = ''
+  textinput_placeholder1: string = ''
+  @Input()
+  rootClassName: string = ''
 
   constructor() {}
 }
