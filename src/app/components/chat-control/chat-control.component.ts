@@ -7,13 +7,13 @@ import { Component, Input } from '@angular/core'
 })
 export class ChatControl {
   @Input()
-  rootClassName: string = ''
-  @Input()
-  textinput_placeholder: string = 'search here...'
-  @Input()
   button: string = 'Button'
   @Input()
+  rootClassName: string = ''
+  @Input()
   button1: string = 'Button'
+  @Input()
+  textinput_placeholder: string = 'search here...'
 
   constructor() {}
 }
