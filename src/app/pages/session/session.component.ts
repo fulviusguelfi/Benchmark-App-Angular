@@ -2,19 +2,17 @@ import { Component } from '@angular/core'
 import { Title, Meta } from '@angular/platform-browser'
 
 @Component({
-  selector: 'sing-in',
-  templateUrl: 'sing-in.component.html',
-  styleUrls: ['sing-in.component.css'],
+  selector: 'app-session',
+  templateUrl: 'session.component.html',
+  styleUrls: ['session.component.css'],
 })
-export class SingIn {
-  rawoxfk: string = ' '
-
+export class Session {
   constructor(private title: Title, private meta: Meta) {
-    this.title.setTitle('Sing-In - Benchmark App')
+    this.title.setTitle('Benchmark App')
     this.meta.addTags([
       {
         property: 'og:title',
-        content: 'Sing-In - Benchmark App',
+        content: 'Benchmark App',
       },
     ])
   }

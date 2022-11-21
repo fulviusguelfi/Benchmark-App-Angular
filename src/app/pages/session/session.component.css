@@ -1,0 +1,49 @@
+:host { 
+  display: contents; 
+}
+.session-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.session-container1 {
+  gap: 3rem;
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 10rem;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.session-container2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.session-text {
+  color: var(--dl-color-blue-300);
+  font-size: 4rem;
+  align-self: stretch;
+  font-family: Exo 2;
+}
+@media(max-width: 767px) {
+  .session-container1 {
+    padding: 7rem;
+  }
+}
+@media(max-width: 479px) {
+  .session-container1 {
+    padding: 2rem;
+  }
+  .session-container2 {
+    flex-wrap: wrap;
+  }
+}

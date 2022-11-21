@@ -34,6 +34,8 @@ export class SessionList {
   text4: string = 'Text'
   @Input()
   text8: string = 'Text'
+  @Input()
+  rootClassName: string = ''
 
   constructor() {}
 }

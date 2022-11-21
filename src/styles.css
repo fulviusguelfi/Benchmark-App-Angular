@@ -134,9 +134,13 @@
 }
 .btn-w {
   border: .2rem solid;
+  display: flex;
   font-size: 1.5rem;
+  align-items: center;
   font-weight: bold;
   border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: row;
+  justify-content: center;
 }
 .primary-w-till {
   fill: var(--dl-color-gray-900);
@@ -178,6 +182,8 @@
   border-color: var(--dl-color-till-300);
 }
 .btn-row {
+  flex: 0 0 auto;
+  display: flex;
   justify-content: space-around;
 }
 .margin-top-w {
@@ -189,14 +195,14 @@
   width: fit-content;
   border: thin solid;
   padding: .25rem;
-  position: relative;
+  position: absolute;
   font-size: .8rem;
+  margin-top: -1.1rem;
   align-items: center;
   margin-left: 1rem;
   border-color: var(--dl-color-green-500);
   align-content: center;
   border-radius: var(--dl-radius-radius-radius12);
-  margin-bottom: -1rem;
   background-color: var(--dl-color-gray-white);
 }
 .Content {

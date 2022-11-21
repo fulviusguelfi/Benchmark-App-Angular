@@ -12,21 +12,14 @@ const routes = [
       import('./pages/sing-up/sing-up.module').then((m) => m.SingUpModule),
   },
   {
-    path: 'sessions-w',
+    path: '',
     loadChildren: () =>
-      import('./pages/sessions-w/sessions-w.module').then(
-        (m) => m.SessionsWModule
-      ),
+      import('./pages/session/session.module').then((m) => m.SessionModule),
   },
   {
     path: 'sing-in',
     loadChildren: () =>
       import('./pages/sing-in/sing-in.module').then((m) => m.SingInModule),
-  },
-  {
-    path: '',
-    loadChildren: () =>
-      import('./pages/home/home.module').then((m) => m.HomeModule),
   },
 ]
 

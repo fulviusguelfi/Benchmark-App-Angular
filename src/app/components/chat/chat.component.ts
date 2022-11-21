@@ -21,17 +21,11 @@ export class Chat {
   @Input()
   text: string = 'Label'
   @Input()
-  textinput_placeholder: string = 'placeholder'
-  @Input()
   text3: string = 'Text'
   @Input()
   text43: string = 'KW : 1'
   @Input()
   text42: string = 'SH : 1'
-  @Input()
-  button2: string = 'Key Words'
-  @Input()
-  button1: string = 'Sub Hability'
 
   constructor() {}
 }

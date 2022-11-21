@@ -1,6 +1,13 @@
 <div class="sing-up-container">
   <div class="sing-up-container1">
     <h1 class="sing-up-text primary-w-blue-stroke">Sing Up</h1>
+    <span>
+      <span>
+        Alredy have an account?
+        <span [innerHTML]="raw3dvc"></span>
+      </span>
+      <a transitionTo="/sing-in" class="sing-up-navlink">Sing in here</a>
+    </span>
     <sing-up-form rootClassName="sing-up-form-root-class-name"></sing-up-form>
   </div>
 </div>

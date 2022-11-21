@@ -20,10 +20,6 @@
   display: flex;
   flex-direction: row;
 }
-.sing-in-form-button {
-  display: flex;
-  flex-direction: row;
-}
 .sing-in-form-icon {
   width: 24px;
   height: 24px;

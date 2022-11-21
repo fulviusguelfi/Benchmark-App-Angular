@@ -29,13 +29,11 @@
   font-size: 4rem;
   font-family: Exo 2;
 }
-@media(max-width: 767px) {
-  .sing-in-container1 {
-    padding: 7rem;
-  }
-}
 @media(max-width: 479px) {
   .sing-in-container1 {
     padding: 2rem;
+  }
+  .sing-in-navlink {
+    text-decoration: underline;
   }
 }

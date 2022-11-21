@@ -37,4 +37,7 @@
   .sing-up-container1 {
     padding: 2rem;
   }
+  .sing-up-navlink {
+    text-decoration: underline;
+  }
 }
