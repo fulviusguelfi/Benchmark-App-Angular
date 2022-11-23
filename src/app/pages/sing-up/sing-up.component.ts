@@ -7,7 +7,7 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['sing-up.component.css'],
 })
 export class SingUp {
-  rawe0i5: string = ' '
+  raw3e36: string = ' '
 
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Sing-Up - Benchmark App')
