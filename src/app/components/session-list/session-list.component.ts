@@ -7,35 +7,31 @@ import { Component, Input } from '@angular/core'
 })
 export class SessionList {
   @Input()
-  text5: string = 'Text'
-  @Input()
-  text: string = 'Text'
-  @Input()
-  text6: string = 'Text'
-  @Input()
-  text12: string = 'Text'
-  @Input()
-  text9: string = 'Text'
-  @Input()
-  text2: string = 'Text'
-  @Input()
-  text10: string = 'Text'
-  @Input()
   rootClassName: string = ''
   @Input()
-  text1: string = 'Text'
+  heading: string = '>> MC - GIlberto Chaves'
   @Input()
-  text3: string = 'Text'
+  text: string = 'Local Session - 25/10/2022'
   @Input()
-  text13: string = 'Text'
+  text1: string = 'Session ID: # 1'
   @Input()
-  text11: string = 'Text'
+  heading1: string = 'BM'
   @Input()
-  text7: string = 'Text'
+  heading11: string = 'MC'
   @Input()
-  text4: string = 'Text'
+  heading2: string = '>> BM - Gerson Sena'
   @Input()
-  text8: string = 'Text'
+  text2: string = 'Local Session - 25/10/2022'
+  @Input()
+  text11: string = 'Session ID: # 1'
+  @Input()
+  heading111: string = 'MP'
+  @Input()
+  heading21: string = '>> MC - GIlberto Chaves'
+  @Input()
+  text21: string = 'Local Session - 25/10/2022'
+  @Input()
+  text111: string = 'Session ID: # 1'
 
   constructor() {}
 }
