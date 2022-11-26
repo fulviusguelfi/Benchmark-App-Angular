@@ -70,7 +70,7 @@
   padding: 0.5rem 1rem;
   border-color: var(--dl-color-gray-black);
   border-width: 1px;
-  border-radius: 4px;
+  border-radius: var(--dl-radius-radius-radius4);
   background-color: var(--dl-color-gray-white);
 }
 .input {
@@ -90,14 +90,14 @@
   padding: 0.5rem;
   border-color: var(--dl-color-gray-black);
   border-width: 1px;
-  border-radius: 4px;
+  border-radius: var(--dl-radius-radius-radius4);
   background-color: var(--dl-color-gray-white);
 }
 .list {
   width: 100%;
   margin: 1em 0px 1em 0px;
   display: block;
-  padding: 0px 0px 0px 1.5rem;
+  padding: 0px 0px 0px 1.5em;
   list-style-type: none;
   list-style-position: outside;
 }
@@ -107,7 +107,7 @@
 .list-item-w {
   border: 2px solid gray;
   display: list-item;
-  padding: 1rem;
+  padding: 1em;
 }
 .teleport-show {
   display: flex !important;
@@ -154,6 +154,18 @@
   border-color: var(--dl-color-till-300);
   background-color: var(--dl-color-gray-900);
 }
+.primary-w-green {
+  fill: var(--dl-color-gray-900);
+  color: var(--dl-color-gray-900);
+  border-color: var(--dl-color-green-500);
+  background-color: var(--dl-color-green-100);
+}
+.primary-w-green:disabled {
+  fill: var(--dl-color-till-300);
+  color: var(--dl-color-till-300);
+  border-color: var(--dl-color-till-300);
+  background-color: var(--dl-color-gray-900);
+}
 .primary-w-red {
   fill: var(--dl-color-gray-900);
   color: var(--dl-color-gray-900);
@@ -176,6 +188,11 @@
   color: var(--dl-color-red-100);
   border-color: var(--dl-color-red-100);
 }
+.primary-w-green-stroke1 {
+  fill: var(--dl-color-green-300);
+  color: var(--dl-color-green-300);
+  border-color: var(--dl-color-green-300);
+}
 .primary-w-till-stroke {
   fill: var(--dl-color-till-300);
   color: var(--dl-color-till-300);
@@ -187,19 +204,19 @@
   justify-content: space-around;
 }
 .margin-top-w {
-  margin-top: 2rem;
+  margin-top: 2em;
 }
 .label {
   fill: var(--dl-color-green-100);
   color: var(--dl-color-green-100);
   width: fit-content;
   border: thin solid;
-  padding: .25rem;
+  padding: .25em;
   position: absolute;
-  font-size: .8rem;
-  margin-top: -1.1rem;
+  font-size: .8em;
+  margin-top: -1.1em;
   align-items: center;
-  margin-left: 1rem;
+  margin-left: 1em;
   border-color: var(--dl-color-green-500);
   align-content: center;
   border-radius: var(--dl-radius-radius-radius12);
@@ -213,18 +230,18 @@
   text-transform: none;
   text-decoration: none;
 }
+.SubHeading {
+  font-size: 1.5em;
+  font-family: Arial;
+  font-weight: 400;
+  text-transform: none;
+  text-decoration: none;
+}
 .Heading {
   font-size: 2em;
   font-family: Inter;
   font-weight: 700;
   line-height: 1.15;
-  text-transform: none;
-  text-decoration: none;
-}
-.SubHeading {
-  font-size: 1.5em;
-  font-family: Arial;
-  font-weight: 400;
   text-transform: none;
   text-decoration: none;
 }

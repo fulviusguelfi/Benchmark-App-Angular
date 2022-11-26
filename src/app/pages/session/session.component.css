@@ -10,15 +10,19 @@
   flex-direction: column;
 }
 .session-container1 {
-  gap: 3rem;
+  gap: 1em;
   flex: 1;
   width: 100%;
   height: auto;
   display: flex;
-  padding: 10rem;
+  max-width: 63.25em;
   align-self: flex-start;
   align-items: flex-start;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
   flex-direction: column;
+  padding-bottom: 1em;
 }
 .session-container2 {
   width: 100%;
@@ -34,15 +38,7 @@
   align-self: stretch;
   font-family: Exo 2;
 }
-@media(max-width: 767px) {
-  .session-container1 {
-    padding: 7rem;
-  }
-}
 @media(max-width: 479px) {
-  .session-container1 {
-    padding: 2rem;
-  }
   .session-container2 {
     flex-wrap: wrap;
   }
